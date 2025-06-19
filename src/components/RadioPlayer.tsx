@@ -15,7 +15,7 @@ const RadioPlayer = () => {
       if (window.Widget && widgetRef.current) {
         const widget = new window.Widget({});
         widget.create({
-          url: "https://example-radio.com",
+          url: "https://101.ru",
           place: "div3ac70cf0db81c1fe65edbf83fe76ce45",
           widgetId: "3ac70cf0db81c1fe65edbf83fe76ce45",
           id: "100",
@@ -61,7 +61,7 @@ const RadioPlayer = () => {
     <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 border border-gray-700/50 shadow-2xl max-w-md w-full">
       <div className="text-center mb-4">
         <div className="text-gray-400 text-sm mb-2">В ЭФИРЕ</div>
-        <div className="text-white font-medium">Онлайн Радио</div>
+        <div className="text-white font-medium">101.ru - Онлайн Радио</div>
       </div>
 
       <div className="bg-gray-900/50 rounded-md p-4 border border-gray-600/30">
@@ -73,7 +73,7 @@ const RadioPlayer = () => {
       </div>
 
       <div className="mt-4 text-center">
-        <div className="text-purple-400 text-sm font-medium">Радио Плеер</div>
+        <div className="text-purple-400 text-sm font-medium">101.ru Плеер</div>
       </div>
     </div>
   );
